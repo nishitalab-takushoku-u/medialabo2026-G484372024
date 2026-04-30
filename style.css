@@ -1,0 +1,41 @@
+h1 {
+    color: rgb(223, 221, 221);
+    background-color: skyblue;
+    border: 10px groove ;
+    text-shadow: 5px 5px 10px black;
+    width: 500px;
+}
+
+h2{
+    font-weight: lighter;
+    background-color: antiquewhite;
+}
+
+div.zentai {
+    display: flex;
+    flex-direction: row;
+
+    width: 500px;
+    padding: 0px 5px 5px 5px;
+}
+
+div.long {
+    flex: 2;
+
+    border: 3px solid rgb(118, 116, 80);
+    background-color: rgb(234, 229, 158);
+    /* margin-right: 10px; */
+    margin-left: 5px;
+    padding: 5px 10px 10px 10px;
+}
+
+div.short {
+    flex: 1;
+
+    margin-left: 10px;
+}
+
+div.a {
+    font-weight: bold;
+    font-size: 20px;
+}
